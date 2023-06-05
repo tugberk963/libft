@@ -2,8 +2,6 @@
 
 int main(void)
 {
-    printf("%d", atoi("123123123"));
-    printf("%s", "\n");
-    printf("%d", ft_atoi("123123123"));
-    printf("%s", "\n");
+    char tug[123] = "tug";
+    printf("%s", ft_strcat(tug,"berk"));
 }

@@ -1,10 +1,11 @@
 #ifndef LIBFT_H
 # define LIBFT_H
-# include <unistd.h>
 
 /* Delete this before push */
 # include <stdio.h>
 # include <stdlib.h>
+# include <string.h>
+# include <unistd.h>
 /* ----------------------- */
 
 /* Libc Functions */
@@ -16,5 +17,9 @@
 # include <ft_tolower.c>
 # include <ft_toupper.c>
 # include <ft_atoi.c>
+# include <ft_strlen.c>
+# include <ft_strcpy.c>
+# include <ft_strncpy.c>
+# include <ft_strcat.c>
 /* -------------- */
 #endif
