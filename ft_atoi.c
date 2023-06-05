@@ -1,21 +1,28 @@
 #include <libft.h>
 
-int ft_atoi(char *c)
+int ft_atoi(const char *cptr)
 {
-    int result;
-    int i; 
+    static int result;
+    static int i; 
+    static int sign;
+
+    sign = 1;
     result = 0;
     i = 0;
 
-    while (c[i] != '\0')
+    if (cptr[i] == '+' || cptr[i] == '-')
     {
-        if ('0' <= c[i] && c[i] <= '9')
-        {
-            result += (c[i] - '0');
-            result *= 10;
-        }
+        if (cptr[i] == '-')
+            sign = -1;
         i++;
     }
 
-    return result / 10; 
+    while ('0' <= cptr[i] && cptr[i] <= '9')
+    {
+        result *= 10;
+        result += cptr[i] - '0';
+        i++;    
+    }
+
+    return result * sign;
 }
