@@ -21,5 +21,10 @@
 # include <ft_strcpy.c>
 # include <ft_strncpy.c>
 # include <ft_strcat.c>
+# include <ft_strncat.c>
+# include <ft_strlcat.c>
+# include <ft_strcmp.c>
+# include <ft_strncmp.c>
+//# include <ft_strstr.c>
 /* -------------- */
 #endif
