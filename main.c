@@ -2,6 +2,8 @@
 
 int main(void)
 {
-    printf("%s", ft_strstr("Tugberk Serce","erc"));
-    printf("%s", strstr("Tugberk Serce","erc"));
+    char tug[7] = "tugberk";
+    ft_bzero(tug, 0);
+    printf("%s", tug);
+    printf("\n");
 }
