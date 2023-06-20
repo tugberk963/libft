@@ -25,9 +25,12 @@
 # include <ft_strlcat.c>
 # include <ft_strcmp.c>
 # include <ft_strstr.c>
+# include <ft_strdup.c>
 # include <ft_strnstr.c>
 # include <ft_strncmp.c>
 # include <ft_memset.c>
 # include <ft_bzero.c>
+# include <ft_memcpy.c>
+# include <ft_memccpy.c>
 /* -------------- */
 #endif
