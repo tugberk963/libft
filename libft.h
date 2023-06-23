@@ -32,5 +32,7 @@
 # include <ft_bzero.c>
 # include <ft_memcpy.c>
 # include <ft_memccpy.c>
+# include <ft_substr.c>
+# include <ft_strjoin.c>
 /* -------------- */
 #endif
