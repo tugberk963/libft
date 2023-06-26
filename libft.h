@@ -20,6 +20,7 @@
 # include <ft_strlen.c>
 # include <ft_strcpy.c>
 # include <ft_strncpy.c>
+# include <ft_strlcpy.c>
 # include <ft_strcat.c>
 # include <ft_strncat.c>
 # include <ft_strlcat.c>
@@ -34,5 +35,6 @@
 # include <ft_memccpy.c>
 # include <ft_substr.c>
 # include <ft_strjoin.c>
+# include <ft_itoa.c>
 /* -------------- */
 #endif
