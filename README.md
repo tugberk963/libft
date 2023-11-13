@@ -1,4 +1,4 @@
 # libft
 Libft - before cursus
 
-contains libc functions
+contains remake libc functions
